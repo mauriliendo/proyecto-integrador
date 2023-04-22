@@ -12,7 +12,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     env:
-      cluster: "eks-mundose"
+      cluster: "eks-mundosepin"
       namespaces: "mundose"
 
     steps:
