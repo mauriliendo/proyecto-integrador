@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       cluster: "eks-mundose"
-      namespaces: "default"
+      namespaces: "mundose"
 
     steps:
       - uses: actions/checkout@v3
